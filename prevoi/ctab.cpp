@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+#define ll long long
+#define ld long double
+#define pb push_back
+#define endl "\n"
+#define fi first
+#define se second
+#define pii pair<ll, ll>
+#define file(name)                    \
+    freopen(name ".inp", "r", stdin); \
+    freopen(name ".out", "w", stdout);
+#define fileTHHB                      \
+    freopen("input.txt", "r", stdin); \
+    freopen("output.txt", "w", stdout)
+const int maxN = 200000 + 10;
+using namespace std;
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    file("CTAB");
+    cout << 2 << endl;
+    cout << 1 << " " << 1 << " " << 1 << " " << 2 << endl;
+    cout << 1 << " " << 2 << " " << 2 << " " << 2 << endl;
+
+    return 0;
+}
